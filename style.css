@@ -1,0 +1,152 @@
+*{
+    font-family: 'Gowun Batang', serif;
+}
+/* 전체 배경 */
+body{
+    background-color: #7eb6db1f;
+}
+/* 네비게이션 */
+#navcustom{
+    background-color: #353535a1 !important;
+}
+.logotext{
+    color: black;
+    font-size: 40px;
+}
+#navlscustom{
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/* 헤더 */
+.imgblock{
+    position: relative;
+}
+.headerbackground{
+    object-fit: cover;
+    opacity: 0.7;
+    z-index: 1;
+}
+.headertext{
+    position: absolute;
+    top: 25%;
+    z-index: 2;
+}
+.headertext h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.headertext h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* About */
+#about{
+    padding-top: 80px;
+}
+.introtitle{
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 45px;
+}
+.introbox{
+    margin: 30px 20px;
+}
+
+/* project */
+#project{
+    padding-top: 80px;
+}
+.projectbox{
+    border-radius: 20px;
+    border: 1px solid #d5bdaf;
+    background-color: #d6ccc280;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projecttitle{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 30px 20px 0px 0px;
+}
+.projectimg{
+    width: 55%;
+    margin: 20px 0px;
+}
+.projectsummary{
+    margin: 20px 0px 40px 0px;
+}
+
+
+
+
+
+
+/* 스킬 */
+#skill{
+    padding-top: 80px;
+}
+.skillbox{
+    display: flex;
+    justify-content: space-around;
+}
+.skillele{
+    display: block;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px 2px;
+}
+.skillti{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.skillsu img{
+    width: 80%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+.skillsu{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    height: 250px;
+    justify-items: center;
+}
+
+
+/* 푸터 */
+footer{
+    background-color: #415a7770;
+    height: 130px;
+    padding: 20px;
+}
+.contacttitle{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 500px;
+}

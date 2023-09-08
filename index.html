@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+	<title>Portfolio</title>
+</head>
+<body>
+	<!-- 네비 -->
+	<nav class="navbar sticky-top bg-body-tertiary" id="navcustom" >
+		<div class="container-fluid mx-lg-5">
+			<a class="navbar-brand mx-0 mx-lg-5" href="#header">
+				<h1 class="logotext">YeJi Kim</h1>
+			</a>
+			<ul class="nav justify-content-end mx-0 mx-lg-5">
+				<li class="nav-item">
+					<a class="nav-link" id= "navlscustom" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="navlscustom" href="#project">Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="navlscustom" href="#skill">Skill</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- 헤더 -->
+	<header id="header">
+		<div class="imgblock row">
+			<img class="headerbackground" src="./backgroundimg.jpg" alt="header img">
+			<div class="headertext col-11 offset-1 col-md-6">
+				<h2>Portfolio</h2>
+				<h3>https://github.com/gimezi</h3>
+			</div>
+			
+		</div>
+	</header>
+	<main>
+	<!-- about -->
+		<article class="container" id="about"> 
+			<h1 class="introtitle row">About Me</h1>
+			<section class="introbox row">
+				<div class="col-3">이름</div>
+				<div class="col-9">김예지</div>
+			</section>
+			<section class="introbox row">
+				<div class="col-3">생년월일</div>
+				<div class="col-9">1997.11.07</div>
+			</section>
+			<section class="introbox row">
+				<div class="col-3">연락처</div>
+				<div class="col-9">010-5633-9176</div>
+			</section>
+			<section class="introbox row">
+				<div class="col-3">주소지</div>
+				<div class="col-9">서울시 관악구</div>
+			</section>
+		</article>
+	<!-- project -->
+		<article id="project" class="container">
+			<h1 class="introtitle row">Project</h1>
+			<div class="projectbox">
+				<div class="projecttitle">관통 프로젝트 2</div>
+				<div class="projectimg">
+					<div id="carouselExample" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./project_img/img1.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./project_img/img2.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./project_img/img3.jpg" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div class="projectsummary">Pandas를 사용하여 데이터분석 및 시각화를 진행했습니다.</div>
+			</div>
+		</article>
+	<!-- skill -->
+		<article id="skill" class="container">
+			<h1 class="introtitle row">Skill</h1>
+			<div class="skillbox row">
+				<div class="skillele col-3">
+					<div class="skillti">Frontend</div>
+					<div class="skillsu">
+						<img src="./project_img/htmllogo.png" alt="html">
+					</div>
+				</div>
+				<div class="skillele col-3">
+					<div class="skillti">Backend</div>
+					<div class="skillsu">
+						<img src="./project_img/pythonlogo.png" alt="python">
+						<img src="./project_img/django.png" alt="django">
+					</div>
+				</div>
+				<div class="skillele col-3">
+					<div class="skillti">Version Control</div>
+					<div class="skillsu">
+						<img src="./project_img/git.svg" alt="git">
+						<img src="./project_img/github.png" alt="github">
+					</div>
+				</div>
+				<div class="skillele col-3">
+					<div class="skillti">Communication</div>
+					<div class="skillsu">
+						<img src="./project_img/figma-5.svg" alt="figma">
+						<img src="./project_img/confluence.svg" alt="confluence">
+					</div>
+				</div>
+				<div class="skillele col-3">
+					<div class="skillti">Etc</div>
+					<div class="skillsu">
+						<img src="./project_img/ansys.svg" alt="ansys">
+						<img src="./project_img/MATLAB_logo_PNG2.png" alt="matlab">
+					</div>
+				</div>
+			</div>
+		</article>
+
+	</main>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<h1 class="contacttitle col-3">Contact me</h1>
+				<div class="col-9">
+					<a href="https://github.com/gimezi">깃허브 프로필</a> <br>
+					<a href="https://memezz.tistory.com/">티스토리 블로그</a> <br>
+					<div>yeji1107@naver.com</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
